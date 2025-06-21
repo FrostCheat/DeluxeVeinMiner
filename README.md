@@ -54,9 +54,8 @@
 ## 📥 Installation
 
 1. 📦 [Download DeluxeVeinMiner](https://poggit.pmmp.io/p/DeluxeVeinMiner) from Poggit
-3. 📁 Place both `.phar` files inside your `/plugins/` directory
-4. 🔁 Restart your server
-5. ✅ Ready to go! Use `/sdrop` to open the auction menu
+2. 📁 Place both `.phar` files inside your `/plugins/` directory
+3. 🔁 Restart your server
 
 ---
 
