@@ -17,8 +17,6 @@ use pocketmine\world\Position;
 
 class EventListener implements Listener {
 
-    private const MAX_BLOCKS = 64;
-
     public function onBlockBreak(BlockBreakEvent $event): void {
         $player = $event->getPlayer();
         $block = $event->getBlock();
@@ -43,7 +41,7 @@ class EventListener implements Listener {
     }
 
     public function veinMine(Block $block, Item $item, Player $player, array &$visited = [], ?Vector3 $origin = null): void {
-        if (count($visited) >= self::MAX_BLOCKS) return;
+        if (count($visited) >= (int) Loader::getInstance()->getConfig()->get("max-blocks", 64)) return;
 
         $pos = $block->getPosition();
         $vec = $pos->asVector3();

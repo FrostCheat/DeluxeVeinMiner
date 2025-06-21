@@ -3,6 +3,8 @@ config-version: 1
 blacklisted-worlds:
   - "world1"
 
+max-blocks: 64
+
 # ORE LIST:
 # coal ore  
 # copper ore  
