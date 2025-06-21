@@ -1,0 +1,21 @@
+name: DeluxeVeinMiner
+main: frostcheat\deluxeveinminer\Loader
+version: 1.0.0
+api: 5.3.0
+author: FrostCheat
+
+permissions:
+  deluxeveinminer.command:
+    default: op
+  deluxeveinminer.command.reload:
+    default: op
+  deluxeveinminer.command.help:
+    default: op
+  deluxeveinminer.command.add.block:
+    default: op
+  deluxeveinminer.command.add.world:
+    default: op
+  deluxeveinminer.command.remove.block:
+    default: op
+  deluxeveinminer.command.remove.world:
+    default: op

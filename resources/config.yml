@@ -1,0 +1,26 @@
+config-version: 1
+
+blacklisted-worlds:
+  - "world1"
+
+# ORE LIST:
+# coal ore  
+# copper ore  
+# diamond ore  
+# emerald ore  
+# gold ore  
+# iron ore  
+# lapis lazuli ore  
+# redstone ore  
+# deepslate coal ore  
+# deepslate copper ore  
+# deepslate diamond ore  
+# deepslate emerald ore  
+# deepslate gold ore  
+# deepslate iron ore  
+# deepslate lapis lazuli ore  
+# deepslate redstone ore  
+# nether quartz ore  
+# nether gold ore
+blacklisted-ores:
+  - "gold ore"
